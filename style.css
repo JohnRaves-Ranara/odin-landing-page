@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'lex-deca-bold';
+    src: url(assets/fonts/Lexend_Deca/LexendDeca-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'lex-deca-regular';
+    src: url(assets/fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'lex-deca-semibold';
+    src: url(assets/fonts/Lexend_Deca/LexendDeca-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'lex-deca-thin';
+    src: url(assets/fonts/Lexend_Deca/LexendDeca-Thin.ttf);
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-background{
+    height: 72px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    /* border: 2px solid red; */
+
+}
+
+.header-container .logo{
+    height: 50px;
+    margin: 0;
+    /* border: 2px solid white; */
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    font-family: 'lex-deca-regular';
+    font-size: 18px;
+    gap: 50px;
+
+}
+
+.introduction-background{
+    height: 85vh;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid brown; */
+}
+
+.introduction-content-container{
+    height: 500px;
+    width: 90vw;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.introduction-content{
+    color: white;
+}
+
+.introduction-content .title{
+    font-family: 'lex-deca-bold';
+    font-size: 52px;
+    margin-bottom: 20px;
+
+}
+
+.introduction-content .sub-text{
+    font-family: 'lex-deca-thin';
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-bottom: 40px;
+}
+
+.introduction-content .watch-now{
+    color: white;
+    background-color: #3b82f6;
+    padding: 1em 2em;
+    border-radius: 1em;
+    border: none;
+    font-family: 'lex-deca-regular';
+    font-size: 14.5px;
+    
+}
+
+
+.introduction-image{
+    width: 100%;
+    height: 380px;
+    flex: 0;
+}
+
+.characters-background{
+    height: 65vh;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.characters-container{
+    height: 50vh;
+    width: 90vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cast-title{
+    font-family: 'lex-deca-bold';
+    font-size: 52px;
+    color: #1f2937;
+    margin-bottom: 60px;
+}
+
+.image-and-name-container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 70px;
+    /* border: 2px solid blue; */
+    
+}
+
+.character-image{
+    height: 172px;
+    width: 172px;
+    /* border: 2px solid red; */
+    margin-bottom: 15px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.character-name{
+    font-family: 'lex-deca-regular';
+    font-size: 16px;
+}
+
+p{
+    margin: 0;
+}
+
+.quote-background{
+    height: 65vh;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    color: #1f2937;
+    text-align: center;
+    font-family: 'lex-deca-thin';
+    /* border: 2px solid red; */
+    width: 1000px;
+}
+
+.quote-container .quote{
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+.quote-container .quotee{
+    font-size: 30px;
+}
+
+.calltoaction-background{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction-container{
+    height: 200px;
+    width: 75vw;
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    border-radius: 15px;
+}
+
+.calltoaction-container .title{
+    font-family: 'lex-deca-bold';
+    font-size: 26px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.calltoaction-container .content{
+    font-family: 'lex-deca-thin';
+    font-size: 20px;
+    color: white;
+}
+
+.calltoaction-container .signup{
+    font-family: 'lex-deca-regular';
+    font-size: 20px;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.calltoaction-container .signup:hover{
+    background-color: white;
+    color: #1f2937;
+}
+
+footer{
+    height: 72px;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    font-family: 'lex-deca-thin';
+    font-size: 20px;
+}
+
+.codedby{
+    margin-bottom: 10px;
+}
